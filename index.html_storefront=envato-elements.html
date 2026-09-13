@@ -24,15 +24,15 @@
 
     <meta
         name="description"
-        content="Hamna Wasim - Research Assistant, International Relations & Research"
+        content="Sana Naseer - Content Writer, Digital Marketing and SEO Specialist"
     >
 
     <meta
         name="author"
-        content="Hamna Wasim"
+        content="Sana Naseer"
     >
 
-    <title>Hamna Wasim | International Relations & Research</title>
+    <title>Sana Naseer | Content Writer & SEO Specialist</title>
 
     <link
         rel="shortcut icon"
@@ -137,7 +137,7 @@
             text-decoration: none;
         }
 
-        /* Portfolio hover: title + button appear on the image */
+        /* Portfolio hover: title + description + button appear on the image */
         .work-thumb {
             position: relative;
             overflow: hidden;
@@ -153,7 +153,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 10px;
+            gap: 9px;
             padding: 20px;
             text-align: center;
             background: rgba(0, 0, 0, 0.52);
@@ -169,6 +169,17 @@
             font-size: 18px;
             line-height: 1.35;
             font-weight: 700;
+            transform: translateY(15px);
+            transition: all 0.3s ease;
+        }
+
+        .work-overlay .work-desc {
+            display: block;
+            max-width: 310px;
+            margin: 0;
+            color: #ffffff;
+            font-size: 12px;
+            line-height: 1.5;
             transform: translateY(15px);
             transition: all 0.3s ease;
         }
@@ -200,6 +211,7 @@
         }
 
         .work-box:hover .work-overlay .work-title,
+        .work-box:hover .work-overlay .work-desc,
         .work-box:hover .work-overlay .work-view-btn {
             transform: translateY(0);
         }
@@ -238,7 +250,16 @@
                 font-size: 15px !important;
                 line-height: 1.7 !important;
             }
+
+            .work-overlay .work-title {
+                font-size: 16px;
+            }
+
+            .work-overlay .work-desc {
+                font-size: 11px;
+            }
         }
+
     </style>
 
 </head>
@@ -281,7 +302,7 @@
                 >
                     <img
                         src="img/logo.png"
-                        alt="Hamna Wasim"
+                        alt="Sana Naseer"
                     >
                 </a>
 
@@ -377,52 +398,58 @@
 
     <!-- END HEADER -->
 
-<!-- HERO -->
-<section
-    id="home"
-    class="hero-section d-flex align-items-center"
->
-    <div class="container">
 
-        <div class="row hero-wrap">
+    <!-- HERO -->
 
-            <div class="col-lg-7">
+    <section
+        id="home"
+        class="hero-section d-flex align-items-center"
+    >
 
-                <div class="hero-content mt-50">
+        <div class="container">
 
-                    <h3
-                        class="sub-heading wow fadeInUp"
-                        data-wow-delay="200ms"
-                    >
-                        Hey, I AM Hamna Wasim...
-                    </h3>
+            <div class="row hero-wrap">
 
-                    <h1
-                        class="heading wow fadeInUp"
-                        data-wow-delay="300ms"
-                    >
-                        INTERNATIONAL RELATIONS | RESEARCH & ANALYSIS
-                    </h1>
+                <div class="col-lg-7">
 
-                    <p
-                        class="desc wow fadeInUp"
-                        data-wow-delay="400ms"
-                    >
-                        Graduate in International Relations with strong research, analytical,
-                        problem-solving and communication skills, currently pursuing
-                        an MPhil in International Relations and gaining practical
-                        experience through research and internships.
-                    </p>
+                    <div class="hero-content mt-50">
 
-                    <!-- DOWNLOAD CV BUTTON -->
-                    <a
-                        href="/img/humana.pdf"
-                        class="default-btn wow fadeInUp"
-                        data-wow-delay="500ms"
-                        download
-                    >
-                        Download CV
-                    </a>
+                        <h3
+                            class="sub-heading wow fadeInUp"
+                            data-wow-delay="200ms"
+                        >
+                            Hey, I AM Sana Naseer...
+                        </h3>
+
+                        <h1
+                            class="heading wow fadeInUp"
+                            data-wow-delay="300ms"
+                        >
+                            CONTENT WRITING | DIGITAL MARKETING & SEO
+                        </h1>
+
+                        <p
+                            class="desc wow fadeInUp"
+                            data-wow-delay="400ms"
+                        >
+                            Results-driven Content Writer, Digital Marketing and SEO
+                            Specialist experienced in creating high-quality,
+                            engaging and search-optimized content that drives traffic,
+                            improves online visibility and supports digital growth.
+                        </p>
+
+                        <!-- DOWNLOAD CV BUTTON -->
+
+                        <a
+                            href="/img/sana.pdf"
+                            class="default-btn wow fadeInUp"
+                            data-wow-delay="500ms"
+                            download
+                        >
+                            Download CV
+                        </a>
+
+                    </div>
 
                 </div>
 
@@ -430,9 +457,7 @@
 
         </div>
 
-    </div>
-</section>
-<!-- END HERO -->
+    </section>
 
     <!-- END HERO -->
 
@@ -457,8 +482,8 @@
                     >
 
                         <img
-                            src="/img/hamna.jpeg"
-                            alt="Hamna Wasim"
+                            src="/img/about.png"
+                            alt="Sana Naseer Content Writer"
                         >
 
                     </div>
@@ -476,7 +501,7 @@
                                 class="wow fadeInUp"
                                 data-wow-delay="100ms"
                             >
-                                I'm a Research Assistant
+                                I'm a Content Writer
                             </span>
 
                             <br>
@@ -485,7 +510,7 @@
                                 class="wow fadeInUp"
                                 data-wow-delay="300ms"
                             >
-                                & International Relations Researcher.
+                                & Digital Marketing and SEO Specialist.
                             </span>
 
                         </h2>
@@ -495,10 +520,11 @@
                             class="wow fadeInUp"
                             data-wow-delay="500ms"
                         >
-                            I'm Hamna Wasim, a graduate in International Relations
-                            with strong analytical, problem-solving and communication
-                            skills. I am currently pursuing an MPhil in International
-                            Relations at Riphah International University.
+                            I'm Sana Naseer, a results-driven Content Writer,
+                            Digital Marketing and SEO Specialist with strong
+                            communication, writing and content optimization skills.
+                            I specialize in creating valuable digital content that
+                            helps businesses improve their online presence.
                         </p>
 
 
@@ -506,9 +532,10 @@
                             class="wow fadeInUp"
                             data-wow-delay="600ms"
                         >
-                            I am currently working as a Research Assistant at the
-                            Institute of Regional Studies Islamabad and as an Intern
-                            at Inter Services Public Relations (ISPR).
+                            With experience in content writing, SEO optimization,
+                            backlink building and research-based article writing,
+                            I focus on producing engaging and search-friendly
+                            content for websites and digital platforms.
                         </p>
 
 
@@ -516,11 +543,10 @@
                             class="wow fadeInUp"
                             data-wow-delay="700ms"
                         >
-                            My academic and research interests include international
-                            relations, strategic studies, diplomacy, artificial
-                            intelligence, cyber security and contemporary global
-                            affairs, supported by research, writing and analytical
-                            experience.
+                            I also have experience writing Swedish and French
+                            articles and working with high-authority websites
+                            for backlink acquisition through outreach and
+                            partnerships.
                         </p>
 
 
@@ -535,81 +561,120 @@
                     >
 
                         <li class="skill-item">
-                            <h5>Research & Analysis</h5>
+                            <h5>Content Writing</h5>
                             <div class="progress">
-                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
-                                    role="progressbar" style="width: 90%;">
+                                <div
+                                    class="progress-bar wow slideInLeft"
+                                    data-wow-duration="2000ms"
+                                    role="progressbar"
+                                    style="width: 95%;"
+                                >
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="skill-item">
+                            <h5>SEO</h5>
+                            <div class="progress">
+                                <div
+                                    class="progress-bar wow slideInLeft"
+                                    data-wow-duration="2000ms"
+                                    role="progressbar"
+                                    style="width: 92%;"
+                                >
+                                    <span>92%</span>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="skill-item">
+                            <h5>On Page SEO</h5>
+                            <div class="progress">
+                                <div
+                                    class="progress-bar wow slideInLeft"
+                                    data-wow-duration="2000ms"
+                                    role="progressbar"
+                                    style="width: 90%;"
+                                >
                                     <span>90%</span>
                                 </div>
                             </div>
                         </li>
 
+
                         <li class="skill-item">
-                            <h5>Analytical Skills</h5>
+                            <h5>Off Page SEO</h5>
                             <div class="progress">
-                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
-                                    role="progressbar" style="width: 90%;">
+                                <div
+                                    class="progress-bar wow slideInLeft"
+                                    data-wow-duration="2000ms"
+                                    role="progressbar"
+                                    style="width: 90%;"
+                                >
                                     <span>90%</span>
                                 </div>
                             </div>
                         </li>
 
+
                         <li class="skill-item">
-                            <h5>Academic Writing</h5>
+                            <h5>Backlink Building</h5>
                             <div class="progress">
-                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
-                                    role="progressbar" style="width: 90%;">
-                                    <span>90%</span>
+                                <div
+                                    class="progress-bar wow slideInLeft"
+                                    data-wow-duration="2000ms"
+                                    role="progressbar"
+                                    style="width: 88%;"
+                                >
+                                    <span>88%</span>
                                 </div>
                             </div>
                         </li>
+
+
+                        <li class="skill-item">
+                            <h5>Digital Marketing</h5>
+                            <div class="progress">
+                                <div
+                                    class="progress-bar wow slideInLeft"
+                                    data-wow-duration="2000ms"
+                                    role="progressbar"
+                                    style="width: 88%;"
+                                >
+                                    <span>88%</span>
+                                </div>
+                            </div>
+                        </li>
+
 
                         <li class="skill-item">
                             <h5>Communication</h5>
                             <div class="progress">
-                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
-                                    role="progressbar" style="width: 90%;">
+                                <div
+                                    class="progress-bar wow slideInLeft"
+                                    data-wow-duration="2000ms"
+                                    role="progressbar"
+                                    style="width: 90%;"
+                                >
                                     <span>90%</span>
                                 </div>
                             </div>
                         </li>
 
-                        <li class="skill-item">
-                            <h5>Microsoft Word & Excel</h5>
-                            <div class="progress">
-                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
-                                    role="progressbar" style="width: 90%;">
-                                    <span>90%</span>
-                                </div>
-                            </div>
-                        </li>
 
                         <li class="skill-item">
-                            <h5>Microsoft PowerPoint & Access</h5>
+                            <h5>Research & Management</h5>
                             <div class="progress">
-                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
-                                    role="progressbar" style="width: 85%;">
-                                    <span>85%</span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="skill-item">
-                            <h5>Team Collaboration</h5>
-                            <div class="progress">
-                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
-                                    role="progressbar" style="width: 90%;">
-                                    <span>90%</span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="skill-item">
-                            <h5>Problem-Solving</h5>
-                            <div class="progress">
-                                <div class="progress-bar wow slideInLeft" data-wow-duration="2000ms"
-                                    role="progressbar" style="width: 90%;">
-                                    <span>90%</span>
+                                <div
+                                    class="progress-bar wow slideInLeft"
+                                    data-wow-duration="2000ms"
+                                    role="progressbar"
+                                    style="width: 88%;"
+                                >
+                                    <span>88%</span>
                                 </div>
                             </div>
                         </li>
@@ -620,7 +685,7 @@
                     <div class="cv-btn">
 
                         <a
-                            href="mailto:hamnawasim9@gmail.com"
+                            href="mailto:sanamalik3096@gmail.com"
                             class="default-btn wow fadeInUp"
                             data-wow-delay="900ms"
                         >
@@ -660,45 +725,111 @@
 
             <div class="service-wrap row">
 
-                <!-- RESEARCH -->
-                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="100ms">
-                    <div class="service-item text-center">
-                        <i class="icon-book-open"></i>
-                        <h3><span>Research & Analysis</span></h3>
-                        <p>Research, analytical work and structured analysis in international relations and contemporary global affairs.</p>
-                    </div>
-                </div>
 
-                <!-- ACADEMIC WRITING -->
-                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="300ms">
+                <!-- CONTENT WRITING -->
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="100ms"
+                >
+
                     <div class="service-item text-center">
+
                         <i class="icon-pencil"></i>
-                        <h3><span>Academic Writing</span></h3>
-                        <p>Research-based academic writing, publications and analytical content on political and international affairs.</p>
+
+                        <h3>
+                            <span>Content Writing</span>
+                        </h3>
+
+                        <p>
+                            High-quality, engaging and research-based content
+                            for blogs, websites and digital platforms.
+                        </p>
+
                     </div>
+
                 </div>
 
-                <!-- INTERNATIONAL RELATIONS -->
-                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="500ms">
+
+                <!-- SEO -->
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="300ms"
+                >
+
                     <div class="service-item text-center">
+
+                        <i class="icon-magnifier"></i>
+
+                        <h3>
+                            <span>SEO Optimization</span>
+                        </h3>
+
+                        <p>
+                            Search-optimized content and SEO strategies designed
+                            to improve rankings, traffic and online visibility.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- OFF PAGE SEO -->
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="500ms"
+                >
+
+                    <div class="service-item text-center">
+
+                        <i class="icon-link"></i>
+
+                        <h3>
+                            <span>Off Page SEO</span>
+                        </h3>
+
+                        <p>
+                            Strategic backlink building, outreach and high-authority
+                            link acquisition for sustainable SEO growth.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DIGITAL MARKETING -->
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="700ms"
+                >
+
+                    <div class="service-item text-center">
+
                         <i class="icon-globe"></i>
-                        <h3><span>International Relations</span></h3>
-                        <p>Research and analysis focused on diplomacy, strategic affairs, security and regional developments.</p>
+
+                        <h3>
+                            <span>Digital Marketing</span>
+                        </h3>
+
+                        <p>
+                            Digital content and marketing support focused on
+                            audience engagement, visibility and online growth.
+                        </p>
+
                     </div>
+
                 </div>
 
-                <!-- MICROSOFT OFFICE -->
-                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="700ms">
-                    <div class="service-item text-center">
-                        <i class="icon-laptop"></i>
-                        <h3><span>Microsoft Office</span></h3>
-                        <p>Working knowledge of Microsoft Word, Excel, PowerPoint and Access for research and professional work.</p>
-                    </div>
-                </div>
 
             </div>
 
         </div>
+
     </section>
 
     <!-- END SERVICES -->
@@ -712,41 +843,83 @@
 
             <div class="counter-wrap row">
 
-                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="100ms">
-                    <div class="counter-item text-center">
-                        <i class="icon-trophy"></i>
-                        <h3 class="counter">2</h3>
-                        <h4>Research Positions</h4>
-                    </div>
-                </div>
 
-                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="300ms">
-                    <div class="counter-item text-center">
-                        <i class="icon-book-open"></i>
-                        <h3 class="counter">2</h3>
-                        <h4>Research Degrees</h4>
-                    </div>
-                </div>
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="100ms"
+                >
 
-                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="500ms">
                     <div class="counter-item text-center">
+
                         <i class="icon-pencil"></i>
-                        <h3 class="counter">6</h3>
-                        <h4>Listed Publications</h4>
+
+                        <h3 class="counter">4</h3>
+
+                        <h4>Years Experience</h4>
+
                     </div>
+
                 </div>
 
-                <div class="col-lg-3 col-sm-6 sm-padding wow fadeInUp" data-wow-delay="700ms">
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="300ms"
+                >
+
                     <div class="counter-item text-center">
-                        <i class="icon-globe"></i>
+
+                        <i class="icon-book-open"></i>
+
                         <h3 class="counter">2</h3>
-                        <h4>Languages</h4>
+
+                        <h4>SEO Specializations</h4>
+
                     </div>
+
                 </div>
+
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="500ms"
+                >
+
+                    <div class="counter-item text-center">
+
+                        <i class="icon-link"></i>
+
+                        <h3 class="counter">3</h3>
+
+                        <h4>Core SEO Skills</h4>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="col-lg-3 col-sm-6 sm-padding wow fadeInUp"
+                    data-wow-delay="700ms"
+                >
+
+                    <div class="counter-item text-center">
+
+                        <i class="icon-globe"></i>
+
+                        <h3 class="counter">3</h3>
+
+                        <h4>Languages</h4>
+
+                    </div>
+
+                </div>
+
 
             </div>
 
         </div>
+
     </section>
 
     <!-- END COUNTERS -->
@@ -792,16 +965,16 @@
                         All
                     </li>
 
+                    <li data-filter=".seo">
+                        SEO
+                    </li>
+
+                    <li data-filter=".content">
+                        Content Writing
+                    </li>
+
                     <li data-filter=".digital">
                         Digital Marketing
-                    </li>
-
-                    <li data-filter=".academic">
-                        Academic Writing
-                    </li>
-
-                    <li data-filter=".social">
-                        Articles
                     </li>
 
                 </ul>
@@ -812,109 +985,375 @@
                     data-wow-delay="500ms"
                 >
 
-                    <div class="col-md-4 col-sm-6 xs-padding single-item digital academic">
-                        <a href="https://docs.google.com/document/d/1jRjb-_jQAY1m6NzFVH73nOmi_NlIViw2XVDwT2-WSss/edit?usp=sharing"
-                           target="_blank" rel="noopener noreferrer" class="work-box">
+
+                    <!-- CARD 1 -->
+
+                    <div class="col-md-4 col-sm-6 xs-padding single-item content seo">
+
+                        <a
+                            href="https://www.socool.sg/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="work-box"
+                        >
+
                             <div class="work-thumb">
-                                <img src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=900&q=80" alt="Research Portfolio 01">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=900&q=80"
+                                    alt="SEO Optimized Blog Writing"
+                                >
+
                                 <div class="work-overlay">
-                                    <h4 class="work-title">Research Portfolio 01</h4>
-                                    <span class="work-view-btn">View</span>
+
+                                    <h4 class="work-title">
+                                        SoCool Singapore
+                                    </h4>
+
+                                    <p class="work-desc">
+                                        Content writing and SEO-focused website content created to improve online visibility and audience engagement.
+                                    </p>
+
+                                    <span class="work-view-btn">
+                                        View
+                                    </span>
+
                                 </div>
+
                             </div>
+
                         </a>
+
                     </div>
 
-                    <div class="col-md-4 col-sm-6 xs-padding single-item digital academic">
-                        <a href="https://docs.google.com/document/d/1scG0BzHCrSAOY3Ckjy5STBrXVuUk1yMjA6wXkuUsOsU/edit?usp=sharing"
-                           target="_blank" rel="noopener noreferrer" class="work-box">
+
+                    <!-- CARD 2 -->
+
+                    <div class="col-md-4 col-sm-6 xs-padding single-item seo">
+
+                        <a
+                            href="https://www.plumbersingapore.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="work-box"
+                        >
+
                             <div class="work-thumb">
-                                <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80" alt="Research Portfolio 02">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=80"
+                                    alt="On Page SEO Optimization"
+                                >
+
                                 <div class="work-overlay">
-                                    <h4 class="work-title">Research Portfolio 02</h4>
-                                    <span class="work-view-btn">View</span>
+
+                                    <h4 class="work-title">
+                                        Plumber Singapore
+                                    </h4>
+
+                                    <p class="work-desc">
+                                        Search-optimized website content designed to target plumbing services and attract relevant organic traffic.
+                                    </p>
+
+                                    <span class="work-view-btn">
+                                        View
+                                    </span>
+
                                 </div>
+
                             </div>
+
                         </a>
+
                     </div>
 
-                    <div class="col-md-4 col-sm-6 xs-padding single-item digital academic">
-                        <a href="https://docs.google.com/document/d/1X-QtR9Lz-DhEQUPvP2WEf04LK5ITZgEDfa7AsFWn4qo/edit?usp=sharing"
-                           target="_blank" rel="noopener noreferrer" class="work-box">
+
+                    <!-- CARD 3 -->
+
+                    <div class="col-md-4 col-sm-6 xs-padding single-item seo digital">
+
+                        <a
+                            href="https://www.cheapmoverssingapore.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="work-box"
+                        >
+
                             <div class="work-thumb">
-                                <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=80" alt="Research Portfolio 03">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80"
+                                    alt="Digital Marketing Strategy"
+                                >
+
                                 <div class="work-overlay">
-                                    <h4 class="work-title">Research Portfolio 03</h4>
-                                    <span class="work-view-btn">View</span>
+
+                                    <h4 class="work-title">
+                                        Cheap Movers Singapore
+                                    </h4>
+
+                                    <p class="work-desc">
+                                        SEO-friendly content created for moving services, focused on relevant keywords, readability and search visibility.
+                                    </p>
+
+                                    <span class="work-view-btn">
+                                        View
+                                    </span>
+
                                 </div>
+
                             </div>
+
                         </a>
+
                     </div>
 
-                    <div class="col-md-4 col-sm-6 xs-padding single-item digital academic">
-                        <a href="https://docs.google.com/document/d/1OfYWrsM_5FC9uq57BWtZnMFjw0_KcSao8GAgWhmXEkg/edit?usp=sharing"
-                           target="_blank" rel="noopener noreferrer" class="work-box">
+
+                    <!-- CARD 4 -->
+
+                    <div class="col-md-4 col-sm-6 xs-padding single-item seo">
+
+                        <a
+                            href="https://www.lsairconservicing.sg/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="work-box"
+                        >
+
                             <div class="work-thumb">
-                                <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80" alt="Research Portfolio 04">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=900&q=80"
+                                    alt="Off Page SEO and Backlinks"
+                                >
+
                                 <div class="work-overlay">
-                                    <h4 class="work-title">Research Portfolio 04</h4>
-                                    <span class="work-view-btn">View</span>
+
+                                    <h4 class="work-title">
+                                        LS Aircon Servicing
+                                    </h4>
+
+                                    <p class="work-desc">
+                                        Informative and search-optimized content created for air conditioning servicing and related digital marketing needs.
+                                    </p>
+
+                                    <span class="work-view-btn">
+                                        View
+                                    </span>
+
                                 </div>
+
                             </div>
+
                         </a>
+
                     </div>
 
-                    <div class="col-md-4 col-sm-6 xs-padding single-item digital social">
-                        <a href="https://medium.com/@hamnaa/how-to-improve-sleep-quality-naturally-99463c0e7ddb"
-                           target="_blank" rel="noopener noreferrer" class="work-box">
+
+                    <!-- CARD 5 -->
+
+                    <div class="col-md-4 col-sm-6 xs-padding single-item content">
+
+                        <a
+                            href="https://www.locksmithsingapore.net/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="work-box"
+                        >
+
                             <div class="work-thumb">
-                                <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=900&q=80" alt="How to Improve Sleep Quality Naturally">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80"
+                                    alt="Research Based Articles"
+                                >
+
                                 <div class="work-overlay">
-                                    <h4 class="work-title">Improve Sleep Quality Naturally</h4>
-                                    <span class="work-view-btn">View</span>
+
+                                    <h4 class="work-title">
+                                        Locksmith Singapore
+                                    </h4>
+
+                                    <p class="work-desc">
+                                        Keyword-focused website content developed to improve search visibility and connect users with locksmith services.
+                                    </p>
+
+                                    <span class="work-view-btn">
+                                        View
+                                    </span>
+
                                 </div>
+
                             </div>
+
                         </a>
+
                     </div>
 
-                    <div class="col-md-4 col-sm-6 xs-padding single-item digital academic">
-                        <a href="https://docs.google.com/document/d/1RVNt4O28SzByaqpSvtGR13xRM2BQ6omC/edit?usp=sharing&ouid=112983916451794183494&rtpof=true&sd=true"
-                           target="_blank" rel="noopener noreferrer" class="work-box">
+
+                    <!-- CARD 6 -->
+
+                    <div class="col-md-4 col-sm-6 xs-padding single-item content seo">
+
+                        <a
+                            href="https://www.vicpakconsultant.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="work-box"
+                        >
+
                             <div class="work-thumb">
-                                <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=900&q=80" alt="Research Document">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=80"
+                                    alt="Website Content Optimization"
+                                >
+
                                 <div class="work-overlay">
-                                    <h4 class="work-title">Research Document</h4>
-                                    <span class="work-view-btn">View</span>
+
+                                    <h4 class="work-title">
+                                        VICPAK Consultant
+                                    </h4>
+
+                                    <p class="work-desc">
+                                        Professional website content created for VICPAK Consultant with a focus on clarity, SEO and online visibility.
+                                    </p>
+
+                                    <span class="work-view-btn">
+                                        View
+                                    </span>
+
                                 </div>
+
                             </div>
+
                         </a>
+
                     </div>
 
-                    <div class="col-md-4 col-sm-6 xs-padding single-item digital social">
-                        <a href="https://medium.com/@hamnaa/the-2026-guide-to-building-a-coaching-brand-on-instagram-231f52f8349f"
-                           target="_blank" rel="noopener noreferrer" class="work-box">
+
+                    <!-- CARD 7 -->
+
+                    <div class="col-md-4 col-sm-6 xs-padding single-item content digital">
+
+                        <a
+                            href="https://www.socool.sg/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="work-box"
+                        >
+
                             <div class="work-thumb">
-                                <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=900&q=80" alt="Building a Coaching Brand on Instagram">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80"
+                                    alt="Business Website Content"
+                                >
+
                                 <div class="work-overlay">
-                                    <h4 class="work-title">Building a Coaching Brand on Instagram</h4>
-                                    <span class="work-view-btn">View</span>
+
+                                    <h4 class="work-title">
+                                        SoCool Singapore SEO Content
+                                    </h4>
+
+                                    <p class="work-desc">
+                                        Engaging website content optimized for search engines, relevant keywords and stronger digital presence.
+                                    </p>
+
+                                    <span class="work-view-btn">
+                                        View
+                                    </span>
+
                                 </div>
+
                             </div>
+
                         </a>
+
                     </div>
 
-                    <div class="col-md-4 col-sm-6 xs-padding single-item digital">
-                        <a href="https://medium.com/@hamnaa/why-ethereum-still-dominates-the-defi-market-1546f141ff6c"
-                           target="_blank" rel="noopener noreferrer" class="work-box">
+
+                    <!-- CARD 8 -->
+
+                    <div class="col-md-4 col-sm-6 xs-padding single-item seo">
+
+                        <a
+                            href="https://www.plumbersingapore.org/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="work-box"
+                        >
+
                             <div class="work-thumb">
-                                <img src="https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=900&q=80" alt="Why Ethereum Still Dominates the DeFi Market">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80"
+                                    alt="Keyword Research Content"
+                                >
+
                                 <div class="work-overlay">
-                                    <h4 class="work-title">Why Ethereum Still Dominates DeFi</h4>
-                                    <span class="work-view-btn">View</span>
+
+                                    <h4 class="work-title">
+                                        Plumber Singapore SEO Content
+                                    </h4>
+
+                                    <p class="work-desc">
+                                        Research-based and SEO-friendly content developed to support website rankings and targeted organic traffic.
+                                    </p>
+
+                                    <span class="work-view-btn">
+                                        View
+                                    </span>
+
                                 </div>
+
                             </div>
+
                         </a>
+
                     </div>
+
+
+                    <!-- CARD 9 -->
+
+                    <div class="col-md-4 col-sm-6 xs-padding single-item content">
+
+                        <a
+                            href="https://www.cheapmoverssingapore.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="work-box"
+                        >
+
+                            <div class="work-thumb">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1542435503-956c469947f6?auto=format&fit=crop&w=900&q=80"
+                                    alt="Multilingual Article Writing"
+                                >
+
+                                <div class="work-overlay">
+
+                                    <h4 class="work-title">
+                                        Cheap Movers Singapore Content
+                                    </h4>
+
+                                    <p class="work-desc">
+                                        Clear and engaging content written for moving services with a focus on SEO, readability and audience needs.
+                                    </p>
+
+                                    <span class="work-view-btn">
+                                        View
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
 
                 </div>
 
@@ -939,22 +1378,33 @@
             <div class="row">
 
                 <div class="col-md-6 d-none d-lg-block d-md-block">
+
                     <div class="clients-thumb">
+
                         <div class="ct-thumb thumb-1"></div>
                         <div class="ct-thumb thumb-2"></div>
                         <div class="ct-thumb thumb-3"></div>
                         <div class="ct-thumb thumb-4"></div>
                         <div class="ct-thumb thumb-5"></div>
+
                     </div>
+
                 </div>
+
 
                 <div class="col-md-6">
 
                     <div class="section-heading">
-                        <h2 class="wow fadeInUp" data-wow-delay="100ms">
+
+                        <h2
+                            class="wow fadeInUp"
+                            data-wow-delay="100ms"
+                        >
                             Professional Experience
                         </h2>
+
                     </div>
+
 
                     <div
                         id="testimonial-carousel"
@@ -962,72 +1412,155 @@
                         data-wow-delay="300ms"
                     >
 
-                        <div class="testi-item">
-                            <p>
-                                Working as a Research Assistant at the Institute of
-                                Regional Studies Islamabad, supporting research and
-                                analytical work for the India Program.
-                            </p>
-                            <div class="testi-thumb">
-                                <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=300&q=80"
-                                     alt="Research Assistant">
-                                <h3>Research Assistant <span>Institute of Regional Studies Islamabad</span></h3>
-                            </div>
-                        </div>
+
+                        <!-- EXPERIENCE 1 -->
 
                         <div class="testi-item">
+
                             <p>
-                                Working as an Intern at Inter Services Public Relations
-                                (ISPR), Islamabad/Rawalpindi, gaining professional
-                                exposure in a research and institutional environment.
+                                Worked as a Content Writer from 2022 to 2025,
+                                creating blog and website content, optimizing
+                                articles for SEO and keywords, editing existing
+                                website content and producing research-based articles.
                             </p>
+
                             <div class="testi-thumb">
-                                <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=300&q=80"
-                                     alt="Internship">
-                                <h3>Intern <span>Inter Services Public Relations (ISPR)</span></h3>
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=300&q=80"
+                                    alt="Content Writer"
+                                >
+
+                                <h3>
+                                    Content Writer
+                                    <span>
+                                        2022 - 2025
+                                    </span>
+                                </h3>
+
                             </div>
+
                         </div>
 
-                        <div class="testi-item">
-                            <p>
-                                Pursuing an MPhil in International Relations after
-                                completing a BS in International Relations, with
-                                academic focus on international affairs, security and
-                                contemporary strategic issues.
-                            </p>
-                            <div class="testi-thumb">
-                                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=300&q=80"
-                                     alt="International Relations">
-                                <h3>MPhil — International Relations <span>Riphah International University</span></h3>
-                            </div>
-                        </div>
+
+                        <!-- EXPERIENCE 2 -->
 
                         <div class="testi-item">
+
                             <p>
-                                Published research and analytical articles covering
-                                terrorism, accountability, family politics, Saudi
-                                regional diplomacy, artificial intelligence and
-                                strategic stability in South Asia.
+                                Worked as a Content Writer at VICPAK Company,
+                                writing and editing website and blog content,
+                                optimizing content for SEO and readability,
+                                conducting research and ensuring content quality.
                             </p>
+
                             <div class="testi-thumb">
-                                <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=300&q=80"
-                                     alt="Publications">
-                                <h3>Research & Publications <span>International Relations</span></h3>
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=300&q=80"
+                                    alt="VICPAK Company"
+                                >
+
+                                <h3>
+                                    Content Writer
+                                    <span>
+                                        VICPAK Company
+                                    </span>
+                                </h3>
+
                             </div>
+
                         </div>
 
+
+                        <!-- EXPERIENCE 3 -->
+
                         <div class="testi-item">
+
                             <p>
-                                BS in International Relations from the University of
-                                Chakwal, including a thesis on Cyber Attack on Estonia:
-                                A Resurgent Russia in the Digital Age.
+                                Provided Off Page SEO support including building
+                                high-quality backlinks, targeting high-authority
+                                websites and using outreach and partnerships to
+                                improve website authority and SEO growth.
                             </p>
+
                             <div class="testi-thumb">
-                                <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=300&q=80"
-                                     alt="Education">
-                                <h3>BS — International Relations <span>University of Chakwal</span></h3>
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=300&q=80"
+                                    alt="Off Page SEO"
+                                >
+
+                                <h3>
+                                    Off Page SEO
+                                    <span>
+                                        Freelancing
+                                    </span>
+                                </h3>
+
                             </div>
+
                         </div>
+
+
+                        <!-- EXPERIENCE 4 -->
+
+                        <div class="testi-item">
+
+                            <p>
+                                Created content for the Movers and Locksmith
+                                Companies Singapore project, focusing on
+                                informative, engaging and search-optimized
+                                website content.
+                            </p>
+
+                            <div class="testi-thumb">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=300&q=80"
+                                    alt="Website Content"
+                                >
+
+                                <h3>
+                                    Content Writing
+                                    <span>
+                                        Movers & Locksmith Companies Singapore
+                                    </span>
+                                </h3>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- EXPERIENCE 5 -->
+
+                        <div class="testi-item">
+
+                            <p>
+                                Experienced in writing Swedish and French articles,
+                                demonstrating the ability to create content for
+                                different languages, audiences and digital markets.
+                            </p>
+
+                            <div class="testi-thumb">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=300&q=80"
+                                    alt="Multilingual Writing"
+                                >
+
+                                <h3>
+                                    Multilingual Article Writing
+                                    <span>
+                                        Swedish & French Content
+                                    </span>
+                                </h3>
+
+                            </div>
+
+                        </div>
+
 
                     </div>
 
@@ -1038,6 +1571,7 @@
         </div>
 
     </section>
+
     <!-- END EXPERIENCE -->
 
 
@@ -1073,10 +1607,10 @@
                             class="wow fadeInUp"
                             data-wow-delay="300ms"
                         >
-                            Have a digital marketing, Shopify, Amazon or
-                            market research project? Let's discuss how I can
-                            help with your online business, product management
-                            and digital growth.
+                            Have a content writing, SEO or digital marketing
+                            project? Let's discuss how I can help you create
+                            valuable content, improve search visibility and
+                            grow your online presence.
                         </p>
 
 
@@ -1089,8 +1623,8 @@
                                 Email:
                             </strong>
 
-                            <a href="mailto:hamnawasim9@gmail.com">
-                                hamnawasim9@gmail.com
+                            <a href="mailto:sanamalik3096@gmail.com">
+                                sanamalik3096@gmail.com
                             </a>
 
                             <br>
@@ -1099,8 +1633,8 @@
                                 Phone:
                             </strong>
 
-                            <a href="tel:03095054645">
-                                0309 5054645
+                            <a href="tel:+923077517476">
+                                +92 307 7517476
                             </a>
 
                             <br>
@@ -1109,7 +1643,7 @@
                                 Location:
                             </strong>
 
-                            Chakwal, Pakistan
+                            Kundian Link Road, Mianwali
 
                         </p>
 
@@ -1123,7 +1657,7 @@
                                 Languages:
                             </strong>
 
-                            Urdu & English
+                            English, Urdu & Punjabi
 
                         </p>
 
@@ -1264,18 +1798,18 @@
                 <a
                     class="mb-15 wow fadeInUp"
                     data-wow-delay="200ms"
-                    href="mailto:hamnawasim9@gmail.com"
+                    href="mailto:sanamalik3096@gmail.com"
                 >
-                    hamnawasim9@gmail.com
+                    sanamalik3096@gmail.com
                 </a>
 
 
                 <a
-                    href="tel:03095054645"
+                    href="tel:+923077517476"
                     class="wow fadeInUp"
                     data-wow-delay="300ms"
                 >
-                    0309 5054645
+                    +92 307 7517476
                 </a>
 
             </div>
@@ -1301,29 +1835,33 @@
                     <ul class="footer-social">
 
                         <li>
+
                             <a
-                                href="https://www.linkedin.com/in/hamna-wasim-401a902a9/"
+                                href="https://www.facebook.com/profile.php?id=61578927689755"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                LinkedIn
+                                Facebook
                             </a>
+
                         </li>
 
-                        <li>
-                            <a
-                                href="https://thediplomaticinsight.com/terrorisms-second-wind-in-pakistan/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Publication
-                            </a>
-                        </li>
 
                         <li>
-                            <a href="mailto:hamnawasim9@gmail.com">
+
+                            <a href="mailto:sanamalik3096@gmail.com">
                                 Email
                             </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a href="tel:+923077517476">
+                                Phone
+                            </a>
+
                         </li>
 
                     </ul>
@@ -1336,9 +1874,13 @@
                     <div class="copyright">
 
                         <p>
+
                             &copy;
+
                             <span id="year"></span>
-                            Hamna Wasim. All Rights Reserved.
+
+                            Sana Naseer. All Rights Reserved.
+
                         </p>
 
                     </div>
@@ -1361,7 +1903,9 @@
         href="#header"
         id="scroll-to-top"
     >
+
         <i class="ti-angle-up"></i>
+
     </a>
 
 
@@ -1369,53 +1913,66 @@
 
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
 
+
     <!-- Modernizr -->
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
 
     <!-- Bootstrap -->
 
     <script src="js/vendor/bootstrap.min.js"></script>
 
+
     <!-- Slicknav -->
 
     <script src="js/vendor/jquery.slicknav.min.js"></script>
+
 
     <!-- OWL Carousel -->
 
     <script src="js/vendor/owl.carousel.min.js"></script>
 
+
     <!-- Counterup -->
 
     <script src="js/vendor/jquery.counterup.min.js"></script>
+
 
     <!-- Waypoints -->
 
     <script src="js/vendor/jquery.waypoints.v2.0.3.min.js"></script>
 
+
     <!-- Venobox -->
 
     <script src="js/vendor/venobox.min.js"></script>
+
 
     <!-- Images Loaded -->
 
     <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
 
+
     <!-- Isotope -->
 
     <script src="js/vendor/jquery.isotope.v3.0.2.js"></script>
+
 
     <!-- Smooth Scroll -->
 
     <script src="js/vendor/smooth-scroll.min.js"></script>
 
+
     <!-- WOW -->
 
     <script src="js/vendor/wow.min.js"></script>
 
+
     <!-- Contact -->
 
     <script src="js/contact.js"></script>
+
 
     <!-- Main JS -->
 
